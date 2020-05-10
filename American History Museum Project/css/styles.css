@@ -1,0 +1,258 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+    background-color: rgb(51, 51, 51);
+}
+
+p {
+    color: white;
+    padding-left: 16px
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #F4E092;
+    text-align: center;
+    padding-left: 16px
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    opacity: 35%;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #F4E092;
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.indexbgimg-1,
+.TR20sbgimg-1,
+.TR20sbgimg-2,
+.TR20sbgimg-3,
+.TR20sbgimg-4,
+.TR20sbgimg-5,
+.TGDbgimg-1,
+.TGDbgimg-2,
+.TGDbgimg-3,
+.TGDbgimg-4,
+.TGDbgimg-5,
+.WWIIbgimg-1,
+.WWIIbgimg-2,
+.WWIIbgimg-3,
+.WWIIbgimg-4,
+.WWIIbgimg-5 {
+    position: relative;
+    opacity: 0.90;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.indexbgimg-1 {
+    background-image: url("../images/American History Museum.jpg");
+    min-height: 94%;
+    opacity: 80%;
+}
+
+
+.TR20sbgimg-1 {
+    background-image: url("../images/NYC Black and White.jpg");
+    min-height: 100%;
+}
+
+.TR20sbgimg-2 {
+    background-image: url("../images/1920s Fashion image4.jpg");
+    min-height: 100%;
+}
+
+.TR20sbgimg-3 {
+    background-image: url("../images/Jazz Age.jpg");
+    min-height: 100%;
+}
+
+.TR20sbgimg-4 {
+    background-image: url("../images/Prohibition.jpg");
+    min-height: 100%;
+}
+
+.TR20sbgimg-5 {
+    background-image: url("../images/Great Depression image6.jpg");
+    min-height: 100%;
+}
+
+.TGDbgimg-1 {
+    background-image: url("../images/Great Depression image9.jpg");
+    min-height: 100%;
+}
+
+.TGDbgimg-2 {
+    background-image: url("../images/Great Depression image10.jpg");
+    min-height: 100%;
+}
+
+.TGDbgimg-3 {
+    background-image: url("../images/Great Depression image7.jpg");
+    min-height: 100%;
+}
+
+.TGDbgimg-4 {
+    background-image: url("../images/Great Depression image11.jpg");
+    min-height: 100%;
+}
+
+.TGDbgimg-5 {
+    background-image: url("../images/Great Depression image13.jpg");
+    min-height: 100%;
+}
+
+.WWIIbgimg-1 {
+    background-image: url("../images/WWII image1.jpg");
+    min-height: 100%;
+}
+
+.WWIIbgimg-2 {
+    background-image: url("../images/WWII image13.jpg");
+    min-height: 100%;
+}
+
+.WWIIbgimg-3 {
+    background-image: url("../images/WWII image12.jpg");
+    min-height: 100%;
+}
+
+.WWIIbgimg-4 {
+    background-image: url("../images/WWII image10.jpg");
+    min-height: 100%;
+}
+
+.WWIIbgimg-5 {
+    background-image: url("../images/WWII image11.jpg");
+    min-height: 100%;
+}
+
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    background-color: black;
+    opacity: 80%;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+
+    .TR20sbgimg-1,
+    .TR20sbgimg-2,
+    .TR20sbgimg-3,
+    .TR20sbgimg-4,
+    .TR20sbgimg-5,
+    .TGDbgimg-1,
+    .TGDbgimg-2,
+    .TGDbgimg-3,
+    .TGDbgimg-4,
+    .TGDbgimg-5,
+    .WWIIbgimg-1,
+    .WWIIbgimg-2,
+    .WWIIbgimg-3,
+    .WWIIbgimg-4,
+    .WWIIbgimg-5 {
+        background-attachment: scroll;
+    }
+}
