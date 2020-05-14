@@ -50,7 +50,13 @@ h6 {
 }
 
 #index {
-    background-color: blue;
+    height: 100%;
+    background-image: url(..//images/wood-background.jpeg);
+    background-color: #000;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
