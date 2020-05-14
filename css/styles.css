@@ -1,3 +1,14 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 .topnav {
     overflow: hidden;
     background-color: #333;
@@ -22,10 +33,6 @@
     color: black;
 }
 
-
-
-
-
 h1,
 h2,
 h3,
@@ -36,10 +43,9 @@ h6 {
     text-align: center;
 }
 
-
-#java,
 #python,
 #html {
+    margin: 0;
     height: 100%;
     background-image: url(..//images/wood-background.jpeg);
     background-color: #000;
@@ -47,19 +53,51 @@ h6 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
-#index {
+
+
+.java-bg-image {
+    background-image: url("../images/java-photo.jpeg");
+}
+
+.index-bg-image {
+    background-image: url(..//images/html-photo.png);
+}
+
+.java-bg-image,
+.index-bg-image {
     height: 100%;
-    background-image: url(..//images/wood-background.jpeg);
+    filter: blur(4px);
     background-color: #000;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+}
+
+.bg-text {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
 }
 
 
+/*
 table,
 th,
 td {
@@ -77,3 +115,4 @@ td {
 table {
     width: 50%;
 }
+*/
