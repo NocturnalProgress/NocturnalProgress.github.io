@@ -23,11 +23,51 @@
 }
 
 
-body {
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #ffffff;
+    text-align: center;
+}
+
+
+#java,
+#python,
+#html {
     height: 100%;
     background-image: url(..//images/wood-background.jpeg);
+    background-color: #000;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#index {
+    background-color: blue;
+}
+
+
+table,
+th,
+td {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+    font-size: large;
+
+}
+
+td {
+    text-align: center;
+}
+
+table {
+    width: 50%;
 }
