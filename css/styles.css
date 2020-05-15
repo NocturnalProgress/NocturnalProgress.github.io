@@ -43,31 +43,29 @@ h6 {
     text-align: center;
 }
 
-#python,
-#html {
-    margin: 0;
-    height: 100%;
-    background-image: url(..//images/wood-background.jpeg);
-    background-color: #000;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 
+.index-bg-image {
+    background-image: url(..//images/index-photo.jpg);
 }
-
-
 
 .java-bg-image {
     background-image: url("../images/java-photo.jpeg");
 }
 
-.index-bg-image {
+.python-bg-image {
+    background-image: url(..//images/index-photo.jpg);
+}
+
+.html-bg-image {
     background-image: url(..//images/html-photo.png);
 }
 
+
+
 .java-bg-image,
-.index-bg-image {
+.index-bg-image,
+.python-bg-image,
+.html-bg-image {
     height: 100%;
     filter: blur(4px);
     background-color: #000;
