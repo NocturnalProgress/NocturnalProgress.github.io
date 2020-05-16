@@ -60,12 +60,17 @@ h6 {
     background-image: url(..//images/html-photo.png);
 }
 
+.javascript-bg-image {
+    background-image: url(..//images/js-photo.png);
+}
+
 
 
 .java-bg-image,
 .index-bg-image,
 .python-bg-image,
-.html-bg-image {
+.html-bg-image,
+.javascript-bg-image {
     height: 100%;
     filter: blur(4px);
     background-color: #000;
