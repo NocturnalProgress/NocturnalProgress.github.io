@@ -1,0 +1,17 @@
+h1,
+#showerThoughtDisplay {
+    color: #fff;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    flex-direction: column;
+    background: #031321;
+    font-family: consolas;
+}
