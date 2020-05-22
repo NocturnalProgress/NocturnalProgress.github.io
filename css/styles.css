@@ -64,13 +64,18 @@ h6 {
     background-image: url(..//images/js-photo.png);
 }
 
+.unity-bg-image {
+    background-image: url(..//images/unity-photo.jpeg);
+}
+
 
 
 .java-bg-image,
 .index-bg-image,
 .python-bg-image,
 .html-bg-image,
-.javascript-bg-image {
+.javascript-bg-image,
+.unity-bg-image {
     height: 100%;
     filter: blur(4px);
     background-color: #000;
